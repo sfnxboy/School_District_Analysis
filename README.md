@@ -72,10 +72,10 @@ Considering we only alter exam scores for Thomas High School, metrics for other 
 
 **File1**
 
-
+![image](https://user-images.githubusercontent.com/68082808/97099763-0c5e1d80-1663-11eb-9fb9-0309385f64ef.png)
  
 **File2**
  
+ ![image](https://user-images.githubusercontent.com/68082808/97099768-11bb6800-1663-11eb-8600-b63dbae94d75.png)
  
- 
-Although removing THS’s ninth grade exam scores dropped their average scores and passing percentages, these metrics did not drop enough to alter the districts overall passing percentage ranking. THS remains ranked second.
+Although removing THS’s ninth grade exam scores dropped their average scores and passing percentages, these metrics did not drop enough to alter the districts overall passing percentage ranking. THS remains ranked second in terms of overall passing percentage.
