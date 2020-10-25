@@ -79,3 +79,25 @@ Considering we only alter exam scores for Thomas High School, metrics for other 
  ![image](https://user-images.githubusercontent.com/68082808/97099768-11bb6800-1663-11eb-8600-b63dbae94d75.png)
  
 Although removing THS’s ninth grade exam scores dropped their average scores and passing percentages, these metrics did not drop enough to alter the districts overall passing percentage ranking. THS remains ranked second in terms of overall passing percentage.
+
+### The average math score received by students in each grade level at each school
+
+**File1**
+
+ ![image](https://user-images.githubusercontent.com/68082808/97099841-fc930900-1663-11eb-994f-0fc954dc9905.png)
+
+**File2**
+
+ ![image](https://user-images.githubusercontent.com/68082808/97099845-0157bd00-1664-11eb-9bcd-e90af557c9d6.png)
+
+These DataFrames are only sorted in alphabetical order of school name, there is no ranking system in these DataFrames. One can notice that THS’s ninth grade math average is “nan”. When using the loc method (find an example above), we assign all matching values to np.nan. Numpy NaN is the IEEE floating point representation of Not a Number. 
+
+### The average reading score received by students in each grade level at each school
+
+**File1**
+
+
+
+**File2**
+
+
