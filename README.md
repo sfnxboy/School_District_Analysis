@@ -40,14 +40,13 @@ student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (
 
 
 ## Results (by task)
-Check out the files for in depth explanations of the code used for each task!
-Note: File1 refers to the original analysis. File2 refers to the analysis where Thomas High School’s ninth grade class exam scores are void.
+Check out the files for in depth explanations of the code used for each task! Again, File1 refers to the original analysis. File2 refers to the analysis where Thomas High School’s ninth grade class exam scores are void.
 
 ### A high-level snapshot of the district's key metrics, presented in a table format
 **File1**
- 
+ ![image](https://user-images.githubusercontent.com/68082808/97099368-8344e780-165e-11eb-988c-9a84f019913f.png)
 
 **File2**
- 
+ ![image](https://user-images.githubusercontent.com/68082808/97099370-88a23200-165e-11eb-80d5-8a34fba65dc9.png)
 
 After removing Thomas High School’s ninth grade class from the pool, the average exam scores drop slightly and so do passing rates.
