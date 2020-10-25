@@ -120,6 +120,18 @@ It is interesting to observe how high schools in this district who recieved less
 
 **File1**
 
+![image](https://user-images.githubusercontent.com/68082808/97100079-4b41a280-1666-11eb-8070-1bd523c71a28.png)
+
+**File2**
+
+![image](https://user-images.githubusercontent.com/68082808/97100083-509eed00-1666-11eb-9207-6d7b181c4662.png)
+
+The alteration in the size of THS's student pool was so insignificant this analysis was practically unaffected. Small and Medium sized schools outperform Large schools in every metric.
+
+### School performance based on the type of school
+
+**File1**
+
 
 
 **File2**
