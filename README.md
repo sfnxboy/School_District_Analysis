@@ -55,12 +55,13 @@ Check out the files for in depth explanations of the code used for each task! Ag
 After removing Thomas High School’s ninth grade class from the pool, the average exam scores drop slightly and so do passing rates.
 
 ### An overview of the key metrics for each school, presented in a table format
-**File1**
 
+**File1**
+![image](https://user-images.githubusercontent.com/68082808/97099669-da988700-1661-11eb-9302-b4386474155a.png)
  
 
 **File2**
-
+![image](https://user-images.githubusercontent.com/68082808/97099670-df5d3b00-1661-11eb-95cc-8e14d53a6146.png)
  
 
 Considering we only alter exam scores for Thomas High School, metrics for other schools won’t change between files. These rows were taken from the ```per_school_summary_df``` DataFrames in their respective files. Average scores and passing percentages are scaled accordingly. Since the average scores and passing percentages drop after voiding THS’s ninth grade class assessment scores, one can conclude that class was outperforming the schools average.
