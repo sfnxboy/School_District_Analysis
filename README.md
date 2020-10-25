@@ -30,3 +30,10 @@ The PyCitySchools.ipynb file (File1) contains Python code that fulfills all of t
 Pandas is a Python library used for data manipulation and analysis. Commonly used with Jupyter Notebook, Pandas offers great functionality including reading raw data, cleaning and inspecting the data, merging data sets, performing calculations, and creating tables. All of these tasks are part of the data wrangling, or data “munging” process that data analysists do to clean, sort, and transform data into a format that can be more easily analyzed and used to convey information. The data wrangling process may include changing the data layout and structure, organizing the data by type, formatting rows or columns, and sorting or grouping data. Pandas is very flexible, optimized for performance, and exceeds Excel in terms of functionality.
 
 
+### Method Used to Remove Data
+For File2 I was tasked with removing Thomas High School’s ninth grade class exam grades. To do so, I used Pandas “.loc()” method as so:
+```
+student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"), "reading_score"] = np.NaN
+
+student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"), "math_score"] = np.NaN
+```
