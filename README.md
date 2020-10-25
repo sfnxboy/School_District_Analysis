@@ -96,8 +96,12 @@ These DataFrames are only sorted in alphabetical order of school name, there is 
 
 **File1**
 
-
+![image](https://user-images.githubusercontent.com/68082808/97099973-239e0a80-1665-11eb-9487-ad9ec65ad7d7.png)
 
 **File2**
+
+![image](https://user-images.githubusercontent.com/68082808/97099974-28fb5500-1665-11eb-8cb8-fb3f366ff1a1.png)
+
+The same can be said about these two data frames.
 
 
