@@ -3,7 +3,7 @@
 ## Overview
 In this project we are tasked with preparing all standardized test data for analysis, reporting, and presenting insights about performance trends and patterns. These insights may be used to inform discussions and strategic decisions at the school and district level. Our objective is to look for relationships between student funding, and student standardized test scores. Our task is to aggregate the data and showcase trends in the districts performance. 
 
-The PyCitySchools.ipynb file contains Python code that fulfills all of the tasks determined below. Due to evidence of academic dishonesty in Thomas High School's ninth grade class, their reading and math exam scores will be rendered void. A second file, PyCitySchools_(Thomas_High_School).ipynb accounts for this. We will refer to this second file for the README.md file.
+The PyCitySchools.ipynb file (File1) contains Python code that fulfills all of the tasks determined below. Due to evidence of academic dishonesty in Thomas High School's ninth grade class, their reading and math exam scores will be rendered void. A second file, PyCitySchools_(Thomas_High_School).ipynb (File2) accounts for this. We will discuss the change in data in this README.md.
 
 ### Tasks
 
