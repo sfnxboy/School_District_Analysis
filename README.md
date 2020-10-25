@@ -66,7 +66,7 @@ After removing Thomas High School’s ninth grade class from the pool, the avera
 ![image](https://user-images.githubusercontent.com/68082808/97099670-df5d3b00-1661-11eb-95cc-8e14d53a6146.png)
  
 
-Considering we only alter exam scores for Thomas High School, metrics for other schools won’t change between files. These rows were taken from the ```per_school_summary_df``` DataFrames in their respective files. Average scores and passing percentages are scaled accordingly. Since the average scores and passing percentages drop after voiding THS’s ninth grade class assessment scores, one can conclude that class was outperforming the schools average.
+Considering we only alter exam scores for Thomas High School, metrics for other schools won’t change between files. These rows were taken from the ```per_school_summary_df``` DataFrames in their respective files. Average scores and passing percentages are scaled accordingly. Since the average assessment scores and passing percentages drop after voiding THS’s ninth grade class assessment scores, one can conclude that class was outperforming the schools average.
 
 ### Top 5 and bottom 5 performing schools, based on the overall passing rate
 
@@ -78,7 +78,7 @@ Considering we only alter exam scores for Thomas High School, metrics for other 
  
  ![image](https://user-images.githubusercontent.com/68082808/97099768-11bb6800-1663-11eb-8600-b63dbae94d75.png)
  
-Although removing THS’s ninth grade exam scores dropped their average scores and passing percentages, these metrics did not drop enough to alter the districts overall passing percentage ranking. THS remains ranked second in terms of overall passing percentage.
+Although removing THS’s ninth grade exam scores dropped their average scores and passing percentages, alterations in these metrics did not change enough to effect the districts overall passing percentage ranking. THS remains ranked second in terms of overall passing percentage.
 
 ### The average math score received by students in each grade level at each school
 
@@ -116,7 +116,7 @@ The same can be said about these two data frames.
 
 It is interesting to observe how high schools in this district who recieved less funding per student achieved greater average math and reading exam scores, and also have a high passing count.
 
-### School performance based on the school size
+### School performance based on school size
 
 **File1**
 
@@ -126,15 +126,46 @@ It is interesting to observe how high schools in this district who recieved less
 
 ![image](https://user-images.githubusercontent.com/68082808/97100083-509eed00-1666-11eb-9207-6d7b181c4662.png)
 
-The alteration in the size of THS's student pool was so insignificant this analysis was practically unaffected. Small and Medium sized schools outperform Large schools in every metric.
+The alteration in the size of THS's student pool was so insignificant this analysis of school performance based on school size was practically unaffected. Small and Medium sized schools outperform Large schools in every metric.
 
 ### School performance based on the type of school
 
 **File1**
 
-
+![image](https://user-images.githubusercontent.com/68082808/97100240-cbb4d300-1667-11eb-9612-78afbcf0e037.png)
 
 **File2**
 
+![image](https://user-images.githubusercontent.com/68082808/97100234-b63fa900-1667-11eb-8d96-7c0badf11e70.png)
 
+Charter schools outperform District schools on every metric. Based on the results found above, it must be the case that District schools are better funded than Charter schools in this municipality. If one looks at the ```per_school_summary_df``` in either file, District schools are in fact better funded than Charter Schools.
 
+## Summary
+
+When having to clean data, especially when it comes to handling missing data, there are three choices an analyst chooses from.
+
+- **Do Nothing:** If we do nothing, when we sum or take the averages of the reading and math scores, those NaNs will not be considered. However if we multiply or divide with a row that has a NaN, the answer will be NaN. This may cause problems.
+
+- **Drop the rows where there are NaNs:** This can cause problems later if there is data in the other rows that we need. Before dropping rows with NaN, you should ask yourself how much data would be removed if NaNs are dropped, and how it would impact analysis.
+```
+\# Drop the NaNs
+missing_grade_df.dropna()
+```
+
+- **Fill in the row:** We can choose to fill in the row. Filling in an empty row must be used with caution, adding irrelevant data may impact arithmetic calculations.
+```
+\# Fill in the empty rows with "85"
+missing_grade_df.fillna(85)
+```
+
+In File2 we decide to simply negate an entire grades assessment answers to preserve the integrity of the school districts research. This may not be the most appropriate decision to make in every situation, but it works in this circumstance just fine. Nonetheless, after the change in the dataset, data analysis changed.
+
+1. After removing Thomas High School’s ninth grade class from the pool, the average exam scores drop slightly and so do passing rates.
+
+2. Since the average assessment scores and passing percentages drop after voiding THS’s ninth grade class assessment scores, one can conclude that class was outperforming the schools average.
+
+3. Although removing THS’s ninth grade exam scores dropped their average scores and passing percentages, alterations in these metrics did not change enough to effect the districts overall passing percentage ranking. THS remains ranked second in terms of overall passing percentage.
+
+4. The alteration in the size of THS's student pool was so insignificant this analysis of school performance based on school size was practically unaffected. 
+
+After the alterations, an analyst may find discrepancies in data regarding Thomas High School. However, these changes are too insignificant to create any significant change when observing metrics at a district wide scale. 
