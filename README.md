@@ -4,15 +4,19 @@
 In this project we are tasked with preparing all standardized test data for analysis, reporting, and presenting insights about performance trends and patterns. These insights may be used to inform discussions and strategic decisions at the school and district level. Our objective is to look for relationships between student funding, and student standardized test scores. Our task is to aggregate the data and showcase trends in school performance
 
 ### Tasks
+
 •	A high-level snapshot of the district's key metrics, presented in a table format
+
 •	An overview of the key metrics for each school, presented in a table format
+
 •	Tables presenting each of the following metrics:
-o	Top 5 and bottom 5 performing schools, based on the overall passing rate
-o	The average math score received by students in each grade level at each school
-o	The average reading score received by students in each grade level at each school
-o	School performance based on the budget per student
-o	School performance based on the school size 
-o	School performance based on the type of school
+
+-	Top 5 and bottom 5 performing schools, based on the overall passing rate
+-	The average math score received by students in each grade level at each school
+-	The average reading score received by students in each grade level at each school
+-	School performance based on the budget per student
+-	School performance based on the school size 
+-	School performance based on the type of school
 
 
 ### Pandas
