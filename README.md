@@ -3,7 +3,7 @@
 ## Overview
 In this project we are tasked with preparing all standardized test data for analysis, reporting, and presenting insights about performance trends and patterns. These insights may be used to inform discussions and strategic decisions at the school and district level. Our objective is to look for relationships between student funding, and student standardized test scores. Our task is to aggregate the data and showcase trends in the districts performance. 
 
-The PyCitySchools.ipynb file (File1) contains Python code that fulfills all of the tasks determined below. Due to evidence of academic dishonesty in Thomas High School's ninth grade class, their reading and math exam scores will be rendered void. A second file, PyCitySchools_(Thomas_High_School).ipynb (File2) accounts for this. We will discuss the change in data in this README.md.
+The PyCitySchools.ipynb file (File1) contains Python code that fulfills all of the tasks determined below. Due to a case of academic dishonesty in Thomas High School's ninth grade class, their reading and math exam scores will be rendered void. A second file, PyCitySchools_(Thomas_High_School).ipynb (File2) accounts for this. We will discuss the change in data in this README.md.
 
 ### Tasks
 
@@ -37,3 +37,17 @@ student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (
 
 student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"), "math_score"] = np.NaN
 ```
+
+
+## Results (by task)
+Check out the files for in depth explanations of the code used for each task!
+Note: File1 refers to the original analysis. File2 refers to the analysis where Thomas High School’s ninth grade class exam scores are void.
+
+### A high-level snapshot of the district's key metrics, presented in a table format
+**File1**
+ 
+
+**File2**
+ 
+
+After removing Thomas High School’s ninth grade class from the pool, the average exam scores drop slightly and so do passing rates.
