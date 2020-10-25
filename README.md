@@ -104,4 +104,25 @@ These DataFrames are only sorted in alphabetical order of school name, there is 
 
 The same can be said about these two data frames.
 
+### School performance based on the budget per student
+
+**File1**
+
+![image](https://user-images.githubusercontent.com/68082808/97100004-a030e900-1665-11eb-981d-7ddb3ff78000.png)
+
+**File2**
+
+![image](https://user-images.githubusercontent.com/68082808/97100005-a4f59d00-1665-11eb-885f-7d9cd7be8a96.png)
+
+It is interesting to observe how high schools in this district who recieved less funding per student achieved greater average math and reading exam scores, and also have a high passing count.
+
+### School performance based on the school size
+
+**File1**
+
+
+
+**File2**
+
+
 
